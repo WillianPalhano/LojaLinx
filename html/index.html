@@ -5,7 +5,125 @@
         <link rel="stylesheet" type="text/css" href="../css/stylesheet.css"/>
     </head>
     <body>
-        <h1 id="title">Hello World!</h1>
+        <header class="centralize vertical">
+            <h1>uma seleção de produtos</h1>
+            <h2>especial para você</h2>
+            <h3>Todos os produtos desta lista foram selecionados a partir da sua navegação. Aproveite!</h3>
+            <nav>
+                <ul class="centralize horizontal">
+                    <li>Conheça a Linx</li>
+                    <li>Ajude o algoritimo</li>
+                    <li>Seus produtos</li>
+                    <li>Compartilhe</li>
+                </ul>
+            </nav>
+        </header>
+        <article id="algoritmo" class="centralize horizontal">
+            <div>
+                <h2>Ajude o algoritimo a ser mais certeiro</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ultricies tellus nec mi porta convallis sollicitudin eu urna. Mauris rhoncus erat sed interdum dignissim. Suspendisse semper pretium consectetur. Praesent bibendum arcu risus, sit amet iaculis ex tempus quis. Cras et erat ut tellus vulputate tincidunt. Aenean lacinia euismod augue vel egestas. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum vel urna tortor. Vivamus et arcu non felis tristique eleifend. 
+                </p>
+                <p>Morbi eu condimentum urna. Curabitur eu magna eget turpis condimentum ultrices. Suspendisse quis lorem ultricies, pulvinar purus sed, egestas erat. Etiam ultricies a ante vehicula pharetra. Quisque ut neque mattis, consequat velit ut, ultrices orci. Nulla varius elementum erat vel pharetra. Aenean sit amet nisi diam. Morbi viverra, magna ac luctus commodo, odio ante suscipit libero, at mattis augue est vel metus.
+                </p>
+            </div>
+            <div>
+                <form action="#">
+                    <label for="name">Seu nome:</label>
+                    <input id="name" type="text">
+    
+                    <label for="email">E-mail</label>
+                    <input id="email" type="email">
+    
+                    <label for="cpf">CPF:</label>
+                    <input id="cpf" type="number">
+    
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Masculino</label><br>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Feminino</label><br>
+                    <input type="radio" id="other" name="gender" value="other">
+                    <label for="other">Outro</label>
+    
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </article>
+        <article  id="produtos" class="centralize vertical">
+            <h2>Sua seleção especial</h2>
+            <div class="produtos centralize horizontal">
+
+                <div>
+                    <img src="#" alt="Imagem do produto">
+                    <h2>Nome do produto</h2>
+                    <p>Descrição do produto um pouco maior, com duas linhas ou três que explica melhor do que se trata.</p>
+                    <div class="price">
+                        <h3>De: R$23,99</h3>
+                        <h3>Por: R$19,99</h3>
+                        <h3>ou 2x de R$9,99</h3>
+                    </div>
+                    <button class="buy">Comprar</button>
+                </div>
+
+                <div>
+                    <img src="#" alt="Imagem do produto">
+                    <h2>Nome do produto</h2>
+                    <p>Descrição do produto um pouco maior, com duas linhas ou três que explica melhor do que se trata.</p>
+                    <div class="price">
+                        <h3>De: R$23,99</h3>
+                        <h3>Por: R$19,99</h3>
+                        <h3>ou 2x de R$9,99</h3>
+                    </div>
+                    <button class="buy">Comprar</button>
+                </div>
+                
+                <div>
+                    <img src="#" alt="Imagem do produto">
+                    <h2>Nome do produto</h2>
+                    <p>Descrição do produto um pouco maior, com duas linhas ou três que explica melhor do que se trata.</p>
+                    <div class="price">
+                        <h3>De: R$23,99</h3>
+                        <h3>Por: R$19,99</h3>
+                        <h3>ou 2x de R$9,99</h3>
+                    </div>
+                    <button class="buy">Comprar</button>
+                </div>
+                
+                <div>
+                    <img src="#" alt="Imagem do produto">
+                    <h2>Nome do produto</h2>
+                    <p>Descrição do produto um pouco maior, com duas linhas ou três que explica melhor do que se trata.</p>
+                    <div class="price">
+                        <h3>De: R$23,99</h3>
+                        <h3>Por: R$19,99</h3>
+                        <h3>ou 2x de R$9,99</h3>
+                    </div>
+                    <button class="buy">Comprar</button>
+                </div>
+
+            </div>
+            
+            <button class="more">Ainda mais produtos aqui!</button>
+        </article>
+        <article  id="compartilhar" class="centralize vertical">
+            <h2>Compartilhe a novidade</h2>
+            <h3>Quer que seus amigos também ganhem a lista personalizada deles? Preencha agora!</h3>
+            <form action="#" class="centralize vertical">
+                <div class="centralize horizontal">
+                    <label for="name">Nome do seu amigo:</label>
+                    <input id="name" type="text">
+    
+                    <label for="email">E-mail</label>
+                    <input id="email" type="email">
+                </div>
+
+                <button type="submit">Enviar agora</button>
+            </form>
+        </article>
+        <footer class="centralize vertical">
+            <p>Testando suas habilidades em HTML, CSS e JS.</p>
+            <p>Linx Impulse</p>
+            <p>2019</p>
+        </footer>
         <script type="text/javascript" src="../js/jquery.js"></script>
         <script type="text/javascript" src="../js/index.js"></script>
     </body>
