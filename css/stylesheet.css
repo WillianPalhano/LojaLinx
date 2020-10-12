@@ -1,4 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
 /* Configurações iniciais */
+
 body{
     margin: 0px;
 }
@@ -113,12 +115,12 @@ header nav button{
 
 #algoritmo div:nth-child(2) form > div > input{
     margin: 0px 5px 0px 0px;
-    width: 14px;
+    min-width: 14px;
     height: 14px;
 }
 
 #algoritmo div:nth-child(2) form > div > label{
-    margin: 0px 40px 0px 0px;
+    margin: 0px 10% 0px 0px;
 }
 
 #algoritmo div:nth-child(2) form > button{
@@ -149,10 +151,8 @@ header nav button{
     margin-top: 50px;
 }
 #special-selection .products > div > img {
-    border: 1px solid #707070
-}
-#special-selection .products > div > div{
-    margin-top: 40px;
+    border: 1px solid #707070;
+    width: 100%
 }
 
 #special-selection .products > div > div > h2{
@@ -315,12 +315,15 @@ footer p{
     }
     #special-selection .products > div{
         flex-direction: row;
-        margin: 0px !important;
+        margin: 30px 0px 0px !important;
     }
-    #special-selection .products > div > div{
-        margin-top: 30px;
+    #special-selection .products > div > img{
+        margin-right: 23px;
     }
-        
+    
+    #special-selection .products > div > div > h2{
+        margin-top: 0px;
+    }
 
 }
 
@@ -348,7 +351,6 @@ footer p{
     #share form > div > div label{
         margin: 7px 0px;
     }
-
     #share form > div > div input{
         border: 1px solid #707070;
         width: 100%;
@@ -369,10 +371,14 @@ footer p{
         height: 115px;
     }
 
-
     /* Classes reutilizáveis */
     .divisory div {
         width: 24%;
     }
+}
 
+@media screen and (max-width: 375px) {
+    header nav {
+        grid-template-columns: auto;
+    }
 }
