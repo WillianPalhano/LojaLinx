@@ -12,10 +12,10 @@
             <h2>especial para você</h2>
             <h3>Todos os produtos desta lista foram selecionados a partir da sua navegação. Aproveite!</h3>
             <nav>
-                <button class="button">Conheça a Linx</button>
-                <button class="button">Ajude o algoritimo</button>
-                <button class="button">Seus produtos</button>
-                <button class="button">Compartilhe</button>
+                <a href="#" class="button">Conheça a Linx</a>
+                <a href="#algoritmo" class="button">Ajude o algoritimo</a>
+                <a href="#special-selection" class="button">Seus produtos</a>
+                <a href="#share" class="button">Compartilhe</a>
             </nav>
         </header>
         <article id="algoritmo" class="centralize horizontal">
@@ -29,23 +29,23 @@
             <div>
                 <form action="#">
                     <label for="name">Seu nome:</label>
-                    <input id="name" type="text">
+                    <input required id="name" type="text">
     
                     <label for="email">E-mail</label>
-                    <input id="email" type="email">
+                    <input required id="email" type="email">
     
                     <label for="cpf">CPF:</label>
-                    <input id="cpf" type="number">
+                    <input id="cpf" type="number" required>
                     <div>
-                        <input type="radio" id="male" name="gender" value="male">
+                        <input required type="radio" id="male" name="gender" value="male">
                         <label for="male">Masculino</label><br>
-                        <input type="radio" id="female" name="gender" value="female">
+                        <input required type="radio" id="female" name="gender" value="female">
                         <label for="female">Feminino</label><br>
-                        <input type="radio" id="other" name="gender" value="other">
+                        <input required type="radio" id="other" name="gender" value="other">
                         <label for="other">Outro</label>
                     </div>
     
-                    <button type="submit" class="button">Enviar</button>
+                    <button type="submit" class="button" onclick="validateForm()">Enviar</button>
                 </form>
             </div>
         </article>
@@ -71,11 +71,11 @@
                 <div class="centralize horizontal">
                     <div >
                         <label for="name">Nome do seu amigo:</label>
-                        <input id="name" type="text">
+                        <input required id="name" type="text">
                     </div >
                     <div>
                         <label for="email">E-mail</label>
-                        <input id="email" type="email">
+                        <input required id="email-share" type="email">
                     </div>
                 </div>
 

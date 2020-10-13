@@ -5,7 +5,6 @@ $(document).ready(function () {
 });
 
 function moreProducts(){
-    console.log("Next page: ", this.nextPage);
     makeRequest(nextPage)
 };
 
@@ -41,4 +40,12 @@ function reqListener () {
 
 function moneyFormat(num) {
     return num.toFixed(2).replace('.', ',').replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1.')
+}
+
+function validateForm() {
+    if (document.getElementById("cpf").value.length != 11){
+        alert("CPF inválido.")
+    } else {
+        alert("Formulário enviado.")
+    }
 }
