@@ -11,6 +11,7 @@ Os arquivos estão dispostos na seguinte organização:
  - Como foi um projeto simples, não adicionei validações excedentes, como verificar se o CPF é válido de acordo com a Receita Federal, só validei os 11 dígitos.
  - Os formulários, como solicitado, são apenas visuais, sem envio de e-mail ou cadastro.
  - Ao priorizar as tarefas, me preocupei principalmente com o visual, depois com a funcionalidade, e acabei não padronizando os objetos que retornam do endpoint por falta de experiência.
+ - Tive problemas para encontrar a fonte "Helvetica Neue" de graça na internet. Optei por não utilizar, e usei uma fonte que estava nas mais utilizadas do Google Fonts, a "Roboto".
 
 ### Dificuldades
  A parte mais difícil do desafio foi trabalhar sem a experiência no mercado de trabalho com o javascript. Desde que comecei minha carreira, trabalhei somente com Ionic 4, utilizando o Angular como base, portanto minha experiência com Typescript foi maior, sei como padronizar e organizar melhor no Angular, do que no Javascript.
@@ -36,7 +37,7 @@ The files are arranged in the following organization:
  - As it was a simple project, I didn't add any excess validations, like checking if the CPF is valid according to the IRS, I only validated the 11 digits.
  - The forms, as requested, are only visual, without sending an email or registering.
  - When prioritizing tasks, I was mainly concerned with the visual, then with the functionality, and ended up not standardizing the objects that return from the endpoint due to lack of experience.
-
+ - I had trouble finding the "Helvetica Neue" font for free on the internet. I chose not to use it, and I used a font that was in the most used Google Fonts, "Roboto".
 ### Difficulties
  The most difficult part of the challenge was working without experience in the job market with javascript. Since I started my career, I worked only with Ionic 4, using Angular as a base, so my experience with Typescript was greater, I know how to standardize and organize better in Angular, than in Javascript.
  
